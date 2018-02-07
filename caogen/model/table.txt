@@ -1,0 +1,9 @@
+CREATE TABLE `article_detail` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(150) NOT NULL,
+  `author` varchar(50) DEFAULT NULL,
+  `pubtime` datetime DEFAULT CURRENT_TIMESTAMP,
+  `content` longtext,
+  `create_date` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
