@@ -95,7 +95,7 @@ $ python run_master.py
 ![images](./images/caogen_master_redis_desktop.png)
 
 
-**2** 开启process_item,等待爬虫```slaver```端传来的item
+**2** 开启process_item,等待爬虫**[slaver](https://github.com/MrPaoBrother/caogen_slaver)端传来的item
 
 ```
 $ python process_items.py caogen_slaver:items -v
@@ -104,11 +104,11 @@ $ python process_items.py caogen_slaver:items -v
 * 若开启成功，则**如下图:**
 ![images](./images/caogen_master_process_item.png)
 
-**Ps.如果slaver端没有传item过来，master端会一直忙等下去**
+**Ps.如果[slaver](https://github.com/MrPaoBrother/caogen_slaver)端没有传item过来，master端会一直忙等下去**
 
 **3** 开启子爬虫服务器: **详情见草根网分布式爬虫之```Slaver```端文档**
 
-**4** 开启Slaver之后，可以看到第二步开启的process_item监测到了数据，并且传入了数据库,**如下图**:
+**4** 开启[slaver](https://github.com/MrPaoBrother/caogen_slaver)之后，可以看到第二步开启的process_item监测到了数据，并且传入了数据库,**如下图**:
 
 ![images](./images/caogen_master_process_item_result.png)
 
@@ -127,7 +127,7 @@ $ python process_items.py caogen_slaver:items -v
 
 **3** 如果项目中在运行时有什么```bug```,请留言。
 
-**4** 该项目要配合```Slaver```端一起运行才能展示效果，请注意。
+**4** 该项目要配合[slaver](https://github.com/MrPaoBrother/caogen_slaver)端一起运行才能展示效果，请注意。
 
 相关资料
 -------
