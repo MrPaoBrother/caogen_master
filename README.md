@@ -95,7 +95,7 @@ $ python run_master.py
 ![images](./images/caogen_master_redis_desktop.png)
 
 
-**2** 开启process_item,等待爬虫**[slaver](https://github.com/MrPaoBrother/caogen_slaver)端传来的item
+**2** 开启process_item,等待爬虫**[slaver](https://github.com/MrPaoBrother/caogen_slaver)**端传来的item
 
 ```
 $ python process_items.py caogen_slaver:items -v
